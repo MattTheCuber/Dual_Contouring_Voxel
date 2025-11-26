@@ -287,8 +287,9 @@ class myapp(ShowBase):
         self.accept("q",destroyWindow,par)
 
 
-app = myapp()
-app.run()
+if __name__ == "__main__":
+    app = myapp()
+    app.run()
 
 
 
